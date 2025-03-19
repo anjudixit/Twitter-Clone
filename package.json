@@ -1,0 +1,22 @@
+{
+  "name": "twitter-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "dev":"vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.2.2"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.14",
+    "postcss": "^8.5.3"
+  }
+}
