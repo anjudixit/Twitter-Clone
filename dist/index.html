@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="https://abs.twimg.com/favicons/twitter-pip.3.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0 " />
+  <link rel="stylesheet" crossorigin href="/assets/index-BmAVGTu2.css">
+</head>
+
+<body class="bg-black text-white overflow-scroll">
+    <div class="md:container flex mx-2 w-full">
+        <div class="first w-[34px] md:w-[25%] mr-4">
+            <div class="sidebar flex flex-col sticky top-0">
+                <div class="logo my-2 md:mx-8 flex justify-start items-start ">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class="invert w-12  hover:rounded-2xl hover:cursor-pointer hover:bg-gray-300 px-2 py-2 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                    <button id="themeToggle" class=" md:block hidden px-4 py-2 my-2 rounded-full text-lg text-white">
+                        <span class="material-symbols-outlined">
+                            contrast
+                        </span>
+                    </button>
+
+                </div>
+                <ul class="flex flex-col text-lg space-y-2 md:px-6 font-bold text-slate-200 w-full">
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined  text-2xl">home</span><span
+                            class="hidden md:block">Home</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined text-2xl">search</span><span
+                            class="hidden md:block">Explore</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined text-2xl">Notifications</span><span
+                            class="hidden md:block">Notifications</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-2">
+                        <span><svg viewBox="0 0 33 32" aria-hidden="true"
+                                class=" invert w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                                <g>
+                                    <path
+                                        d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466">
+                                    </path>
+                                </g>
+                            </svg></span><span class="hidden md:block">Grok</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined text-2xl">Mail</span><span
+                            class="hidden md:block">Messages</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined text-2xl">Bookmarks</span><span
+                            class="hidden md:block">Bookmarks</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined text-2xl">Group</span><span
+                            class="hidden md:block">Communities</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined text-2xl">Person</span><span
+                            class="hidden md:block">Profile</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center gap-3 justify-center md:w-fit hover:bg-slate-800 hover:rounded-full hover:cursor-pointer hover: px-3 py-1">
+                        <span class="material-symbols-outlined text-2xl">More</span><span
+                            class="hidden md:block">More</span>
+                    </li>
+
+                </ul>
+                <div
+                    class="button md:hidden flex justify-center items-center mt-2 bg-blue-400 p-2 rounded-full hover:cursor-pointer">
+                    <span class="material-symbols-outlined">edit</span>
+                </div>
+                <div class="themeToggle md:hidden block py-2 my-2 rounded-full text-lg text-white hover:bg-gray-600">
+                <span class="material-symbols-outlined">
+                    contrast
+                </span>
+                </div>
+                <div class="post m-1 hidden md:block ">
+                    <span
+                        class="font-bold text-sm md:text-lg bg-blue-500 rounded-3xl px-3 md:px-16 py-2 hover:cursor-pointer">
+                        Post
+                    </span>
+                </div>
+                <div class="item p-1 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg m-2 hidden md:block">
+                    <div class="flex justify-between">
+                        <div class="userprofile flex p-1 justify-start rounded-xl">
+                            <img class="w-10 h-10 object-cover rounded-full"
+                                src="https://4.bp.blogspot.com/-L2SVjgMY0jY/VdLSmTSr3fI/AAAAAAAACk8/-GewYFVOYNM/s1600/5.jpg"
+                                alt="">
+                            <div class="content space-x-3">
+                                <span class="md:px-3 font-bold text-sm hover:underline">Anju Dixit</span>
+                                <span class=" text-gray-600 text-sm hidden md:block">#WebDeveloper</span>
+                            </div>
+                        </div>
+                        <div class="post flex justify-center items-center text-gray-600 md:block">
+                            <span class="material-symbols-outlined">
+                                more_horiz
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second w-full sm:w-[80%] md:w-[45%] max-w-[600px] border-[0.1px] border-x-gray-600 border-y-black ">
+            <div class="top flex sticky top-0 bg-black backdrop-blur-0 opacity-80 ">
+                <div class="blueline absolute w-16 h-1 bg-blue-400 bottom-0 left-[14%] md:left-[16%] rounded-full">
+                </div>
+                <div class="left w-1/2 flex justify-center font-bold hover:cursor-pointer hover:bg-gray-700">For You
+                </div>
+                <div class="right w-1/2 flex justify-center font-bold hover: cursor-pointer hover:bg-gray-700">Following
+                </div>
+                <div class="settings mx-2 hover:cursor-pointer"><span class="material-symbols-outlined">settings</span>
+                </div>
+            </div>
+            <div class="h-[0.1px] w-full bg-gray-600"></div>
+            <div class="whatishapp flex m-2 gap-2">
+                <div class="img">
+                    <img class="w-10 h-10 rounded-full"
+                        src="https://4.bp.blogspot.com/-L2SVjgMY0jY/VdLSmTSr3fI/AAAAAAAACk8/-GewYFVOYNM/s1600/5.jpg"
+                        alt="">
+                </div>
+                <div class="w-full sm:w-[200px] ">
+                    <input class="tweetInput w-full bg-black text-gray-400 text-lg outline-none" type="text"
+                        placeholder="What's happening?">
+                    <div class="text-blue-400 flex items-center my-1 text-sm w-full">
+                        <span class="material-symbols-outlined p-1">globe_asia</span>
+                        <span>Everyone can reply</span>
+                    </div>
+                    <div class="w-full h-[1px] bg-gray-600"></div>
+                </div>
+                <div id="tweetFeed" class="max-w-xl mx-auto mt-4 space-y-4"></div>
+            </div>
+            <div class="flex justify-around m-2">
+                <div class="blueicons flex gap-2 items-center">
+                    <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">image</span>
+                    <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">gif_box</span>
+                    <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">ballot</span>
+                    <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">mood</span>
+                    <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">redeem</span>
+                    <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">pin_drop</span>
+                </div>
+                <div class="postTweet ml-10">
+                    <span
+                        class=" h-8 font-bold text-[14px] bg-blue-500 rounded-3xl px-3 py-1 hover:cursor-pointer flex items-center">
+                        Post
+                    </span>
+                </div>
+            </div>
+            <div class="h-[1.5px] w-full bg-gray-600"></div>
+            <div class="flex justify-center items-center">
+                <span class="text-blue-400 text-sm p-2 hover: cursor-pointer">Show 245 posts</span>
+            </div>
+            <div class="h-[0.2px] w-full bg-gray-600"></div>
+
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image">
+                            <img class="w-8 h-8 m-2 rounded-full"
+                                src="https://juststickers.in/wp-content/uploads/2013/06/Python.jpg" alt="">
+                        </div>
+                        <div class="content flex items-center">
+                            <span
+                                class=" flex text-lg md:text-xl items-center font-bold hover:cursor-pointer hover:underline">Python
+                                Coding<svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                    class="w-6 fill-blue-400 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-1cvl2hr r-f9ja8p r-og9te1 r-3t4u6i"
+                                    data-testid="icon-verified">
+                                    <g>
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z">
+                                        </path>
+                                    </g>
+                                </svg></span>
+                            <span class="p-1 text-gray-500 text-lg hover:cursor-pointer">@clcoding</span>
+                            <span class="text-gray-500 p-1 text-lg">.</span>
+                            <span class="text-gray-500 hover:cursor-pointer hover:underline">3h</span>
+                            <span
+                                class="material-symbols-outlined p-3 ml-12 text-gray-600 hover:cursor-pointer">more_horiz</span>
+                        </div>
+                    </div>
+                    <div class="postimage m-3 pl-4">
+                        <img class="rounded-xl"
+                            src="https://pbs.twimg.com/media/GmUmWJLbUAAlmZz?format=jpg&name=900x900" alt="">
+                    </div>
+                    <div class="icons flex justify-around p-2">
+                        <div class="icon text-gray-400 flex gap-4 hover:cursor-pointer">
+                            <span class="flex items-center gap-1 hover:text-blue-400">
+                                <span class="material-symbols-outlined ">comment</span> 1
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-green-400">
+                                <span class="material-symbols-outlined">repeat</span> 22
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-red-500">
+                                <span class="material-symbols-outlined">favorite</span> 126
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-pink-400">
+                                <span class="material-symbols-outlined">bar_chart</span> 8.6K
+                            </span>
+                        </div>
+                        <div class="icon-right text-gray-400 flex gap-1 p-2 hover:cursor-pointer">
+                            <span class="flex items-center gap-1 hover:text-purple-400">
+                                <span class="material-symbols-outlined">bookmark</span>
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-purple-400">
+                                <span class="material-symbols-outlined">ios_share</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="h-[0.2px] w-full bg-gray-600"></div>
+
+                <div class="post">
+                    <div class="flex ">
+                        <div class="image">
+                            <img class="w-8 h-8 m-2 rounded-full"
+                                src="https://th.bing.com/th/id/OIP.Jf0NnGpH2AhNM3BtwZufwwHaJ4?rs=1&pid=ImgDetMain"
+                                alt="">
+                        </div>
+                        <div class="content flex items-center p-2">
+                            <span
+                                class=" flex text-lg md:text-xl items-center font-bold hover:cursor-pointer hover:underline">Arvind
+                                Srivas<svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                    class="w-6 fill-blue-400 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-1cvl2hr r-f9ja8p r-og9te1 r-3t4u6i"
+                                    data-testid="icon-verified">
+                                    <g>
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z">
+                                        </path>
+                                    </g>
+                                </svg></span>
+                            <span class="p-1 text-gray-500 text-lg hover:cursor-pointer">@ArvSrivas</span>
+                            <span class="text-gray-500 p-1 text-lg">.</span>
+                            <span class="text-gray-500 hover:cursor-pointer hover:underline">12h</span>
+                            <span
+                                class="material-symbols-outlined p-3 ml-12 text-gray-600 hover:cursor-pointer">more_horiz</span>
+                        </div>
+                        <!-- <div class="text-white text-lg">
+                        <p>Introduction to Data Science in Python</p>
+                    </div> -->
+                    </div>
+                    <div class="postimage m-3 pl-4">
+                        <img class="rounded-xl" src="https://pbs.twimg.com/media/GmTZbEAakAAYbys?format=jpg&name=medium"
+                            alt="">
+                    </div>
+                    <div class="icons flex justify-around p-2">
+                        <div class="icon text-gray-400 flex gap-4 hover:cursor-pointer">
+                            <span class="flex items-center gap-1 hover:text-blue-400">
+                                <span class="material-symbols-outlined">comment</span> 21
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-green-400">
+                                <span class="material-symbols-outlined">repeat</span> 17
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-red-500">
+                                <span class="material-symbols-outlined">favorite</span> 433
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-pink-400">
+                                <span class="material-symbols-outlined">bar_chart</span> 16K
+                            </span>
+                        </div>
+                        <div class="icon-right text-gray-400 flex gap-1 p-2 hover:cursor-pointer">
+                            <span class="flex items-center gap-1 hover:text-purple-400">
+                                <span class="material-symbols-outlined">bookmark</span>
+                            </span>
+                            <span class="flex items-center gap-1 hover:text-purple-400">
+                                <span class="material-symbols-outlined">ios_share</span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="h-[0.2px] w-full bg-gray-600"></div>
+
+        </div>
+        <div class="third w-[30%] hidden md:block">
+            <div class="search m-2">
+                <input type="text" class="w-[85%] rounded-full bg-[#16181c] text-white px-3 py-1" placeholder="Search">
+            </div>
+            <div class="subscribe m-2 w-[85%] bg-[#16181c] text-white px-3 py-1 rounded-xl">
+                <h1 class="font-bold text-lg my-2">Subscribe to Premium</h1>
+                <p class="text-sm text-gray-200">Subscribe to unlock new features and if eligible, receive a share of
+                    ads revenue</p>
+                <div class="post flex justify-start m-3 w-full">
+                    <span class="font-bold text-[15px] bg-blue-500 rounded-3xl px-5 py-2 hover:cursor-pointer">
+                        Subscribe
+                    </span>
+                </div>
+            </div>
+
+            <div class="whats m-3 w-[85%]  bg-[#16181c] rounded-xl p-3 space-y-3">
+                <h1 class="text-lg font-bold">What's Happening</h1>
+                <div class="item p-2 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg">
+                    <div class="font-bold text-sm text-gray-600 flex justify-between">Trending Now
+                        <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                width="24px" fill="#3e4144">
+                                <path
+                                    d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z" />
+                            </svg></span>
+                    </div>
+                    <div class="font-bold">#Orry</div>
+                    <div class="text-[12px] text-gray-400">40.2k Posts</div>
+                </div>
+                <div class="item p-2 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg">
+                    <div class="font-bold text-sm text-gray-600 flex justify-between">Enterntainment- Trending
+                        <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                width="24px" fill="#3e4144">
+                                <path
+                                    d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z" />
+                            </svg></span>
+                    </div>
+                    <div class="font-bold">#Anju</div>
+                    <div class="text-[12px] text-gray-400">50.3k Posts</div>
+                </div>
+                <div class="item p-2 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg">
+                    <div class="font-bold text-sm text-gray-600 flex justify-between">Trending in India
+                        <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                width="24px" fill="#3e4144">
+                                <path
+                                    d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z" />
+                            </svg></span>
+                    </div>
+                    <div class="font-bold">#Sigma Course</div>
+                    <div class="text-[12px] text-gray-400">63.2k Posts</div>
+                </div>
+                <div class="item p-2 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg">
+                    <div class="font-bold text-sm text-gray-600 flex justify-between">Course- Trending
+                        <span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                width="24px" fill="#3e4144">
+                                <path
+                                    d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z" />
+                            </svg></span>
+                    </div>
+                    <div class="font-bold">#WebDevelopment</div>
+                    <div class="text-[12px] text-gray-400">80.1k Posts</div>
+                </div>
+                <div class="last space-y-3">
+                    <span class="text-sky-600 text-sm hover: cursor-pointer hover:underline">Show more</span>
+                </div>
+            </div>
+            <div class="who m-3 w-[85%]  bg-[#16181c] rounded-xl p-2 space-y-3">
+                <h1 class="text-lg font-bold">Who to Follow</h1>
+                <div class="item p-1 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg flex">
+                    <div class="following  flex p-1 justify-start w-[90%] rounded-xl">
+                        <img class="w-10 h-10 object-cover rounded-full "
+                            src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/maldives-1200x853.jpg" alt="">
+                        <div class="content space-x-3">
+                            <span class="px-3 font-bold text-sm hover:underline">Visit Maldives</span>
+                            <span class=" text-gray-600 text-sm">@visitmaldives</span>
+                        </div>
+                    </div>
+                    <div class="post flex justify-center items-center">
+                        <span
+                            class="font-bold text-sm bg-white rounded-3xl px-3 py-1 text-black hover:cursor-pointer h-8">
+                            Follow
+                        </span>
+                    </div>
+                </div>
+                <div class="item p-1 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg flex">
+                    <div class="following  flex p-1 justify-start w-[90%] rounded-xl">
+                        <img class="w-10 h-10 object-cover rounded-full "
+                            src="https://i0.wp.com/sincomillas.com/wp-content/uploads/2012/09/microsoft-logo.jpeg"
+                            alt="">
+                        <div class="content space-x-3">
+                            <span class="px-3 font-bold text-sm flex hover:underline">Microsoft<svg viewBox="0 0 22 22"
+                                    aria-label="Verified account" role="img"
+                                    class="w-4 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                    data-testid="icon-verified">
+                                    <g>
+                                        <linearGradient gradientUnits="userSpaceOnUse" id="1-a" x1="4.411" x2="18.083"
+                                            y1="2.495" y2="21.508">
+                                            <stop offset="0" stop-color="#f4e72a"></stop>
+                                            <stop offset=".539" stop-color="#cd8105"></stop>
+                                            <stop offset=".68" stop-color="#cb7b00"></stop>
+                                            <stop offset="1" stop-color="#f4ec26"></stop>
+                                            <stop offset="1" stop-color="#f4e72a"></stop>
+                                        </linearGradient>
+                                        <linearGradient gradientUnits="userSpaceOnUse" id="1-b" x1="5.355" x2="16.361"
+                                            y1="3.395" y2="19.133">
+                                            <stop offset="0" stop-color="#f9e87f"></stop>
+                                            <stop offset=".406" stop-color="#e2b719"></stop>
+                                            <stop offset=".989" stop-color="#e2b719"></stop>
+                                        </linearGradient>
+                                        <g clip-rule="evenodd" fill-rule="evenodd">
+                                            <path
+                                                d="M13.324 3.848L11 1.6 8.676 3.848l-3.201-.453-.559 3.184L2.06 8.095 3.48 11l-1.42 2.904 2.856 1.516.559 3.184 3.201-.452L11 20.4l2.324-2.248 3.201.452.559-3.184 2.856-1.516L18.52 11l1.42-2.905-2.856-1.516-.559-3.184zm-7.09 7.575l3.428 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="url(#1-a)"></path>
+                                            <path
+                                                d="M13.101 4.533L11 2.5 8.899 4.533l-2.895-.41-.505 2.88-2.583 1.37L4.2 11l-1.284 2.627 2.583 1.37.505 2.88 2.895-.41L11 19.5l2.101-2.033 2.895.41.505-2.88 2.583-1.37L17.8 11l1.284-2.627-2.583-1.37-.505-2.88zm-6.868 6.89l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="url(#1-b)"></path>
+                                            <path
+                                                d="M6.233 11.423l3.429 3.428 5.65-6.17.038-.033-.005 1.398-5.683 6.206-3.429-3.429-.003-1.405.005.003z"
+                                                fill="#d18800"></path>
+                                        </g>
+                                    </g>
+                                </svg></span>
+                            <span class=" text-gray-600 text-sm">@Microsoft</span>
+                        </div>
+                    </div>
+                    <div class="post flex justify-center items-center">
+                        <span
+                            class="font-bold text-sm bg-white rounded-3xl px-3 py-1 text-black hover:cursor-pointer h-8">
+                            Follow
+                        </span>
+                    </div>
+                </div>
+                <div class="item p-1 hover:bg-slate-800 hover:cursor-pointer hover:rounded-lg flex">
+                    <div class="following  flex p-1 justify-start w-full rounded-xl">
+                        <img class="w-10 h-10 object-cover rounded-full "
+                            src="https://th.bing.com/th/id/OIP.3W2anxiIji0mzDNoHB4wdQHaEK?rs=1&pid=ImgDetMain" alt="">
+                        <div class="content space-x-3">
+                            <span class="px-3 font-bold text-sm flex hover:underline">OpenAI<svg viewBox="0 0 22 22"
+                                    aria-label="Verified account" role="img"
+                                    class="w-4 fill-sky-600 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-1cvl2hr r-f9ja8p r-og9te1 r-3t4u6i"
+                                    data-testid="icon-verified">
+                                    <g>
+                                        <path
+                                            d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z">
+                                        </path>
+                                    </g>
+                                </svg></span>
+                            <span class=" text-gray-600 text-sm">@OpenAI</span>
+                        </div>
+                    </div>
+                    <div class="post flex justify-center items-center">
+                        <span
+                            class="font-bold text-sm bg-white rounded-3xl px-3 py-1 text-black hover:cursor-pointer h-8">
+                            Follow
+                        </span>
+                    </div>
+                </div>
+
+                <div class="last space-y-3">
+                    <span class="text-sky-600 text-sm hover: cursor-pointer hover:underline">Show more</span>
+                </div>
+            </div>
+            <div class="footer text-[12px] text-gray-600 flex flex-wrap gap-4 px-4">
+                <span>Terms of Service</span>
+                <span>Privacy Policy</span>
+                <span>Cookie Policy</span>
+                <span>Accessibility</span>
+                <span>Ads info</span>
+                <div class="flex gap-1">More<span class="material-symbols-outlined">more_horiz</span></div>
+                <span>© 2025 Corpo.</span>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
